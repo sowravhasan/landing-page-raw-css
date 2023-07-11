@@ -71,6 +71,46 @@
 .banner-right-content img{
     width: 478px;
 }
+/* feature section css */
+.feature-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1280px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.feature-container {
+    flex-basis: calc(33% - 10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2DEE8;
+    padding-top: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-radius: 50% 50% 0px 0px;
+}
+.feature-container1{
+    background-color:#DAF0F1;
+}
+.feature-container2{
+    background-color:#E4ECDC;
+}
+.feature-container img {
+    width: 200px;
+    height: 250px;
+}
+.feature-div p{
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.feature-name {
+    margin-top: 10px;
+}
+
 /* icon section css */
 .icon-section {
     display: flex;
@@ -119,12 +159,6 @@
     width: 45%;
     text-align: left;
     align-items: center;
-}
-.banner-left-content h1{
-    
-}
-.banner-left-content p{
-
 }
 .hot-deal-right-content{
     width: 45%;
@@ -185,11 +219,6 @@ input[type="email"] {
     border: none;
     border-radius: 5px 5px 5px 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.subscribe-button:hover {
-    background-color: #45a049;
 }
 
 .subscribe-button:focus {
@@ -227,4 +256,3 @@ input[type="email"] {
 .footer p{
     color: #7e7a7a !important;
 }
-
