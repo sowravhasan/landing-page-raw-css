@@ -179,6 +179,47 @@
     width: 23%;
     margin-right: 20px;
 }
+
+/* Special Extra Pricing Section css */
+.pricing-content {
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .price-card {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    padding: 40px 20px;
+    margin: 0 10px;
+    flex: 1;
+  }
+  
+  .price-card-header {
+    margin-bottom: 15px;
+  }
+  
+  .price-card-header h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .price {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .features-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .features-list li {
+    margin-bottom: 15px;
+  }
+  
 /* subsribe section css */
 .subscribe-section {
     position: relative;
@@ -256,3 +297,5 @@ input[type="email"] {
 .footer p{
     color: #7e7a7a !important;
 }
+
+  
